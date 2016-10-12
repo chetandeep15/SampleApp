@@ -1,3 +1,15 @@
 <% provide(:title, 'Home') %>
 <h1>Sample App</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+
+<div>
+<ul><%= link_to 'Home', root_path %></ul>
+<ul> <%=link_to 'Sign_In', '#' %></ul>
+<ul> <%=link_to 'New User | Sign_Up', '#' %></ul>
+</div>
+
+<nav>
+  <li><%= link_to 'About', about_path %></li>
+  <li><%= link_to 'Contact', contact_path %></li>
+  <li><%= link_to 'Help', help_path %></li>
+</nav>
+
