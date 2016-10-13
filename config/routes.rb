@@ -15,6 +15,12 @@ SampleApp::Application.routes.draw do
 
   resources :sessions, only: [:new, :create, :destroy]
 
+  match '/signout', to: 'sessions#destroy', via: :delete
+
+  match '/signin', to: 'sessions#new'
+
+  match '/signup', to: 'users#new'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
