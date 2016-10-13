@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.22.1'
-
+gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'jquery-rails'
+gem 'test-unit', '~> 3.0'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
@@ -9,7 +13,7 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-gem 'test-unit', '~> 3.0'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -22,7 +26,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+
 
 group :test do
   gem 'capybara'
@@ -34,7 +38,7 @@ group :production do
 end
 
 # To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
