@@ -6,12 +6,12 @@ gem 'jquery-rails'
 gem 'test-unit', '~> 3.0'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
+gem 'faker'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'faker'
 end
 
 
