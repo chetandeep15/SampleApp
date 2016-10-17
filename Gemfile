@@ -11,6 +11,7 @@ gem 'bootstrap-will_paginate', '0.0.6'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'faker'
 end
 
 
